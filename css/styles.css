@@ -1,0 +1,107 @@
+
+.navbar-blue {
+background-color: #030308;
+}
+
+
+
+.navbar {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+.nav-link{
+    color: white;
+    background-color: rgba(4, 4, 5, 0);
+   
+    font-family: fantasy;
+}
+.lzy1Td {
+    display: inline-block;
+    max-height: 56px;
+    max-width: 225px;
+    padding: 8px 4px 8px 12px;
+    vertical-align: middle;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+
+#about, #experiences {
+    padding: 40px;
+}
+.about-detail {
+    display: flex;
+    flex-direction: row;
+}
+.about-detail {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.about-description {
+    padding: 40px;
+    font-size: 30px;
+}
+.about-descripti {
+  padding: 40px;
+  font-size: 40px;
+  
+}
+.about-dest {
+  font-size: 70px;
+  margin-left: 30px;
+}
+.title {
+
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #030308;
+    color: white;
+}
+
+
+
+.carousel {
+    padding-top: 40px;
+}
+.card-body{
+
+ text-align: center;
+ 
+}
+.card-hh {
+  text-align: center;
+  margin: auto;
+  align-content: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+/* Tampilan halaman untuk layar kecil (misalnya perangkat mobile) */
+@media (max-width: 768px) {
+  /* Atur tampilan elemen-elemen untuk layar kecil */
+}
+
+/* Tampilan halaman untuk layar menengah (misalnya tablet) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Atur tampilan elemen-elemen untuk layar menengah */
+}
+
+/* Tampilan halaman untuk layar besar (misalnya desktop) */
+@media (min-width: 1025px) {
+  /* Atur tampilan elemen-elemen untuk layar besar */
+}
